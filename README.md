@@ -43,8 +43,7 @@ For Linux users, you need to complie openpose following the instruction [here](h
 `openpose.bin --display 0  --render_pose 1 --image_dir ./data/obj1/images --write_json ./data/obj1/keypoints --write_images ./data/obj1/pose_images --hand --face`
 
 <br>
-<img src="example/front2.png" alt="drawing" width="150"/>
-<img src="example/back2.png" alt="drawing" width="150"/>
+<img src="example/front2.png" alt="drawing" width="150"/> <img src="example/back2.png" alt="drawing" width="150"/>
 <br>
 
 ### step3: fit smpl/smplx model
@@ -54,8 +53,7 @@ An example command is:
 Please copy the output data to `./data/obj1/smplx or ./data/obj1/smpl`
 
 <br>
-<img src="example/front3.jpg" alt="drawing" width="150"/>
-<img src="example/back3.jpg" alt="drawing" width="150"/>
+<img src="example/front3.jpg" alt="drawing" width="150"/> <img src="example/back3.jpg" alt="drawing" width="150"/>
 <br>
 
 ### step4(optional): get PGN segmentation
@@ -63,16 +61,14 @@ Please follow the instruction [here](https://github.com/Engineering-Course/CIHP_
 Please copy the output data to `./data/obj1/PGN`
 
 <br>
-<img src="example/front4.png" alt="drawing" width="150"/>
-<img src="example/back4.png" alt="drawing" width="150"/>
+<img src="example/front4.png" alt="drawing" width="150"/> <img src="example/back4.png" alt="drawing" width="150"/>
 <br>
 
 ### step4: texture generation
 run `python demo.py data_path front_img back_img smplx`
 
 <br>
-<img src="example/smpl_t.png" alt="drawing" width="300"/>
-<img src="example/smplx_t.png" alt="drawing" width="300"/>
+<img src="example/smpl_t.png" alt="drawing" width="300"/> <img src="example/smplx_t.png" alt="drawing" width="300"/>
 <br>
 
 
