@@ -42,9 +42,10 @@ example can be find in `./data/obj1/images`
 For Linux users, you need to complie openpose following the instruction [here](https://github.com/CMU-Perceptual-Computing-Lab/openpose), and for windows users, you can used the [windows portable demo](https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/master/doc/installation/README.md#windows-portable-demo). <br>
 `openpose.bin --display 0  --render_pose 1 --image_dir ./data/obj1/images --write_json ./data/obj1/keypoints --write_images ./data/obj1/pose_images --hand --face`
 
+<br>
 <img src="example/front2.png" alt="drawing" width="150"/>
 <img src="example/back2.png" alt="drawing" width="150"/>
-
+<br>
 
 ### step3: fit smpl/smplx model
 Please follow the instruction [here](https://github.com/vchoutas/smplify-x) <br>
@@ -52,23 +53,27 @@ An example command is:
 `python smplifyx/main.py --config cfg_files/fit_smplx.yaml --data_folder ./data/obj1 --output_folder ./data/obj1/smplx --visualize=True  --model_folder models --vposer_ckpt vposer_v1_0` <br>
 Please copy the output data to `./data/obj1/smplx or ./data/obj1/smpl`
 
+<br>
 <img src="example/front3.jpg" alt="drawing" width="150"/>
 <img src="example/back3.jpg" alt="drawing" width="150"/>
-
+<br>
 
 ### step4(optional): get PGN segmentation
 Please follow the instruction [here](https://github.com/Engineering-Course/CIHP_PGN) <br>
 Please copy the output data to `./data/obj1/PGN`
 
+<br>
 <img src="example/front4.png" alt="drawing" width="150"/>
 <img src="example/back4.png" alt="drawing" width="150"/>
+<br>
 
 ### step4: texture generation
 run `python demo.py data_path front_img back_img smplx`
 
+<br>
 <img src="example/smpl_t.png" alt="drawing" width="300"/>
 <img src="example/smplx_t.png" alt="drawing" width="300"/>
-
+<br>
 
 
 
