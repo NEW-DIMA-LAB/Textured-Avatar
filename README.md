@@ -35,8 +35,10 @@ You'll find the results in `data/obj1`
 ### step1: prepare your image data
 example can be find in `./data/obj1/images`
 
+Example image : <br>
 <img src="example/front1.jpg" alt="drawing" width="150"/>
 <img src="example/back1.jpg" alt="drawing" width="150"/>
+<br>
 
 ### step2: openpose pose detection
 For Linux users, you need to complie openpose following the instruction [here](https://github.com/CMU-Perceptual-Computing-Lab/openpose), and for windows users, you can used the [windows portable demo](https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/master/doc/installation/README.md#windows-portable-demo). <br>
